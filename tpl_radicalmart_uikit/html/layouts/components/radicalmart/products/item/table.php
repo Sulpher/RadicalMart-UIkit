@@ -141,8 +141,8 @@ if (!$hidePrice)
 					<s><?php echo $product->price['base_string']; ?></s>
 				</div>
 			<?php endif; ?>
-			<div>
-				<strong><?php echo $product->price['final_string']; ?></strong>
+			<div class="uk-text-bold">
+				<?php echo $product->price['final_string']; ?>
 			</div>
 		<?php elseif (empty($product->in_stock)): ?>
 			<span class="uk-text-danger">
