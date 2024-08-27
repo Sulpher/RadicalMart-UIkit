@@ -119,7 +119,7 @@ $filter       = (!empty($this->children));
 							<?php if (!empty($this->modules['radicalmart-filter-mobile'])): ?>
 								<span class="uk-button uk-button-default uk-button-small uk-hidden@m"
 									  uk-toggle="target: #productsFilters">
-									<span class="uk-margin-xsmall-right" uk-icon="icon: settings; ratio: .75;"></span>
+									<span class="uk-margin-small-right" uk-icon="icon: settings; ratio: .75;"></span>
 									<?php echo Text::_('COM_RADICALMART_FILTERS'); ?>
 								</span>
 							<?php endif; ?>
